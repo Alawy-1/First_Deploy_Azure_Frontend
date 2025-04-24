@@ -73,7 +73,7 @@
       const weight = document.getElementById('weight').value;
       const height = document.getElementById('height').value;
 
-      const res = await fetch('https://YOUR_BACKEND_URL_HERE/calculate-bmi', {
+      const res = await fetch('https://my-first-backend-ckcdambwhcd3gnce.uaenorth-01.azurewebsites.net/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ weight, height })
